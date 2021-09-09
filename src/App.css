@@ -1,0 +1,86 @@
+.App-header {
+  background-color: #000056;
+  max-height: 80px;
+  display: flex;
+}
+
+.Nav-title {
+  flex-direction: column;
+  font-size: 1.6rem;
+  color: rgb(13, 209, 36);
+  padding-left: 15px;
+  font-family: 'serif';
+  letter-spacing: 1px;
+}
+
+.main {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp3205396.jpg&f=1&nofb=1");
+  min-height: 100vh;
+  padding: 100px 10px 20px 10px;
+}
+
+.container {
+  position: relative;
+  background-color: rgb(32, 91, 209);
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.outerContainer {
+  width:100%;
+  text-align: center;
+}
+
+.container_below {
+  background-color: rgb(5, 31, 83);
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.btn {
+  margin: 15px;
+}
+
+.params {
+  width: auto;
+  display: flex;
+  margin: 20px 5px;
+}
+
+.chip {
+  width: 25%;
+}
+
+.progbar {
+  float: left;
+  width: 75%;
+  padding: 7px;
+  border-radius: 10px;
+  margin: 7px 15px;
+}
+
+.buttonProgress {
+  position: 'absolute';
+  top: '50%';
+  left: '25%';
+  margin: 10px;
+  color: lime;
+}
+
+.wrapper {
+  margin: 10px;
+  position: 'relative';
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(3, 62, 198);
+  color: white;
+  text-align: center;
+}
