@@ -32,7 +32,7 @@ function App() {
       setTimeout(() => {
         setDisplayLoading("none");
         setPredBoxDisp("inline-block");
-        // document.getElementById('predictionBox').scrollIntoView();
+        document.getElementById('predictionBox').scrollIntoView();
       }, 2000);
     }
   }
