@@ -4,6 +4,9 @@ The TensorFlow.js toxicity model is used, which classifies text according to whe
 
 Demo Web App: [Here](https://text-toxicity.herokuapp.com/)
 
+<img src="https://user-images.githubusercontent.com/61322721/147029042-ba4c56b8-bf22-42c0-81fc-c7378a83b5f9.jpg" />
+
+
 ## Tensorflow Model
 Pre-trained model is used from [here](https://github.com/tensorflow/tfjs-models/tree/master/toxicity)
 
